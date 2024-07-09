@@ -1,0 +1,10 @@
+{
+  "name": "Victor",
+  "ID": 21245,
+  "address": {
+    "city": "Minsk",
+    "street": "Pushkina",
+    "House number": 20
+  },
+  "subjects": ["Math", "Physics", "Statistics"]
+}
