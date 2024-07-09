@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FileParsingTests {
     private final ClassLoader cl = FileParsingTests.class.getClassLoader();
 
-    @DisplayName("Проверка данных из файлов pdf, xlsx, csv извлеченных из zip архива")
+    @DisplayName("Проверка данных из файлов pdf, xlsx, csv. Файлы извлечены из zip архива")
     @Test
     void zipFileParsingTest() throws Exception {
         List<String> expectedPdfValues = List.of("sample", "Philip Hutchison");
